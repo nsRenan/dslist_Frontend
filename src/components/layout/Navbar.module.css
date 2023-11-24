@@ -1,0 +1,36 @@
+:root {
+  --textColor: #51ff99;
+  --hoverColor: #8ddfa6;
+  --colorBlue: rgb(190, 49, 68);
+  --colorPink: rgb(240, 89, 65);
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  size: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  margin-right: 1em;
+}
+.item a {
+  color: var(--colorBlue);
+  text-decoration: none;
+}
+.item a:hover {
+  color: var(--colorPink);
+  transition: 0.5s;
+}

@@ -1,0 +1,9 @@
+:root {
+  --textColor: #51ff99;
+  --hoverColor: #8ddfa6;
+}
+.jogos {
+  color: #da0000;
+  display: flex;
+  justify-content: center;
+}

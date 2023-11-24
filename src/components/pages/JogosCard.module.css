@@ -1,0 +1,210 @@
+:root {
+  --colorBlue: #BE3144;
+  --colorPink: #F05941;
+}
+
+
+.details_container {
+  margin-bottom: 1.2em;
+  padding-bottom: 1.2em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.jogos_card {
+  width: 280px; 
+  height: 420px; 
+  border-radius: 20px;
+  background-color: #363636;
+  margin: 0.5%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease; 
+}
+
+
+.jogos_card:hover {
+  transform: scale(1.05); 
+}
+
+.jogos_card img {
+  width: 100%;
+  height: 50%; 
+  object-fit: cover; 
+  border-radius: 20px 20px 0 0; 
+}
+
+.jogos_card_content {
+  padding: 16px;
+}
+
+.jogos_card h4 {
+  font-size: 18px; 
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #cccccc;
+  margin-bottom: 8px;
+}
+
+.jogos_card p {
+  font-size: 14px; 
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #cccccc;
+  margin-bottom: 8px;
+}
+
+.jogos_card p span {
+  font-weight: bold;
+}
+.jogos_card p2 span {
+  font-weight: bold;
+}
+
+.jogos_card p2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #cccccc;
+  margin-bottom: 8px;
+}
+
+
+.jogos_card_actions a:hover {
+  color: var(--colorPink);
+}
+
+.details_container .jogos_card + .jogos_card {
+  margin-top: 1.2em;
+}
+
+.jogos_card.expanded {
+  width: 80%; /* Ajuste o tamanho conforme necessário */
+  height: 80vh; /* Ajuste a altura conforme necessário */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  overflow-y: auto; /* Adicione rolagem para o caso de as informações serem muito longas */
+}
+
+/* Estilos anteriores permanecem aqui */
+
+.jogos_card.expanded {
+  display: flex;
+  align-items: center;
+}
+
+
+.jogos_card.expanded img {
+  width: 40%;
+  height: auto;
+  object-fit: contain;
+  margin-right: 16px;  
+  margin-left: 5%;
+}
+
+
+.jogos_card.expanded .image_container {
+  width: 100%;
+  margin-right: 16px;
+  overflow: hidden;
+  
+}
+
+.jogos_card.expanded .image_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.expanded {
+  transform: scale(1.05);
+}
+
+.jogos_card.expanded h4 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f8f8f8; 
+  margin-bottom: 5%;
+}
+
+.jogos_card.expanded p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #838383; 
+  margin-bottom: 8px;
+}
+.jogos_card.expanded p2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #838383; 
+  margin-bottom: 8px;
+}
+
+.jogos_card.expanded p  {
+  text-align: center;
+}
+.jogos_card.expanded  {
+  text-align: center;
+}
+
+
+.jogos_card.expanded .link {
+  display: inline-block; /* Garante que o link ocupe apenas a largura do texto */
+  color: #fff !important;
+  text-decoration: none; /* Remove a sublinhado padrão dos links */
+  padding: 8px 16px; /* Adapte o preenchimento conforme necessário */
+  background-color: #363636;
+  border-bottom: #838383;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.jogos_card.expanded .link:hover {
+  color: #ee0000 !important;
+  background-color: #cccccc;
+  transition: 0.4s;
+}
+
+.jogos_card.expanded .descricao {
+  display: none; 
+}
+
+.video_player {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;/* Ajuste o valor conforme necessário para garantir que seja mais alto do que o z-index do card */
+}
+
+
+
+.close_button {
+  position: absolute;
+  background: red;
+  margin-top: 30%;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
