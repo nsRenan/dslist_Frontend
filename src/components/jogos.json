@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Mass Effect Trilogy",
+    "score": 4.8,
+    "game_year": 2012,
+    "genre": "Role-playing (RPG), Shooter",
+    "platforms": "XBox, Playstation, PC",
+    "img_url": "https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/1.png",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!",
+    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum illum placeat eligendi, quis maiores veniam. Incidunt dolorum, nisi deleniti dicta odit voluptatem nam provident temporibus reprehenderit blanditiis consectetur tenetur. Dignissimos blanditiis quod corporis iste, aliquid perspiciatis architecto quasi tempore ipsam voluptates ea ad distinctio, sapiente qui, amet quidem culpa.",
+    "trailer_url": "https://www.youtube.com/watch?v=PfHxklxMhA4"
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "score": 4.7,
+    "game_year": 2018,
+    "genre": "Role-playing (RPG), Adventure",
+    "platforms": "XBox, Playstation, PC",
+    "img_url": "https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/2.png",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!",
+    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum illum placeat eligendi, quis maiores veniam. Incidunt dolorum, nisi deleniti dicta odit voluptatem nam provident temporibus reprehenderit blanditiis consectetur tenetur. Dignissimos blanditiis quod corporis iste, aliquid perspiciatis architecto quasi tempore ipsam voluptates ea ad distinctio, sapiente qui, amet quidem culpa.",
+    "trailer_url": "https://www.youtube.com/watch?v=gmA6MrX81z4"
+  },
+  {
+    "title": "The Witcher 3: Wild Hunt",
+    "score": 4.7,
+    "game_year": 2014,
+    "genre": "Role-playing (RPG), Adventure",
+    "platforms": "XBox, Playstation, PC",
+    "img_url": "https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/3.png",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!",
+    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum illum placeat eligendi, quis maiores veniam. Incidunt dolorum, nisi deleniti dicta odit voluptatem nam provident temporibus reprehenderit blanditiis consectetur tenetur. Dignissimos blanditiis quod corporis iste, aliquid perspiciatis architecto quasi tempore ipsam voluptates ea ad distinctio, sapiente qui, amet quidem culpa.",
+    "trailer_url": "https://www.youtube.com/watch?v=XHrskkHf958"
+  },
+  {
+    "title": "Sekiro: Shadows Die Twice",
+    "score": 3.8,
+    "game_year": 2019,
+    "genre": "Role-playing (RPG), Adventure",
+    "platforms": "XBox, Playstation, PC",
+    "img_url": "https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/4.png",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!",
+    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum illum placeat eligendi, quis maiores veniam. Incidunt dolorum, nisi deleniti dicta odit voluptatem nam provident temporibus reprehenderit blanditiis consectetur tenetur. Dignissimos blanditiis quod corporis iste, aliquid perspiciatis architecto quasi tempore ipsam voluptates ea ad distinctio, sapiente qui, amet quidem culpa.",
+    "trailer_url": "https://www.youtube.com/watch?v=rXMX4YJ7Lks"
+  },
+  {
+    "title": "Ghost of Tsushima",
+    "score": 4.6,
+    "game_year": 2012,
+    "genre": "Role-playing (RPG), Adventure",
+    "platforms": "XBox, Playstation, PC",
+    "img_url": "https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/5.png",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!",
+    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum illum placeat eligendi, quis maiores veniam. Incidunt dolorum, nisi deleniti dicta odit voluptatem nam provident temporibus reprehenderit blanditiis consectetur tenetur. Dignissimos blanditiis quod corporis iste, aliquid perspiciatis architecto quasi tempore ipsam voluptates ea ad distinctio, sapiente qui, amet quidem culpa.",
+    "trailer_url": "https://www.youtube.com/watch?v=7WzKdFjRoWE"
+  },
+  {
+    "title": "Super Mario World",
+    "score": 4.7,
+    "game_year": 1990,
+    "genre": "Platform",
+    "platforms": "Super Ness, PC",
+    "img_url": "https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/6.png",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!",
+    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum illum placeat eligendi, quis maiores veniam. Incidunt dolorum, nisi deleniti dicta odit voluptatem nam provident temporibus reprehenderit blanditiis consectetur tenetur. Dignissimos blanditiis quod corporis iste, aliquid perspiciatis architecto quasi tempore ipsam voluptates ea ad distinctio, sapiente qui, amet quidem culpa.",
+    "trailer_url": "https://www.youtube.com/watch?v=-WpgCFSLtLo"
+  },
+  {
+    "title": "Hollow Knight",
+    "score": 4.6,
+    "game_year": 2017,
+    "genre": "Platform",
+    "platforms": "XBox, Playstation, PC",
+    "img_url": "https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/7.png",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!",
+    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum illum placeat eligendi, quis maiores veniam. Incidunt dolorum, nisi deleniti dicta odit voluptatem nam provident temporibus reprehenderit blanditiis consectetur tenetur. Dignissimos blanditiis quod corporis iste, aliquid perspiciatis architecto quasi tempore ipsam voluptates ea ad distinctio, sapiente qui, amet quidem culpa.",
+    "trailer_url": "https://www.youtube.com/watch?v=UAO2urG23S4"
+  },
+  {
+    "title": "Ori and the Blind Forest",
+    "score": 4,
+    "game_year": 2015,
+    "genre": "Platform",
+    "platforms": "XBox, Playstation, PC",
+    "img_url": "https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/8.png",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!",
+    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum illum placeat eligendi, quis maiores veniam. Incidunt dolorum, nisi deleniti dicta odit voluptatem nam provident temporibus reprehenderit blanditiis consectetur tenetur. Dignissimos blanditiis quod corporis iste, aliquid perspiciatis architecto quasi tempore ipsam voluptates ea ad distinctio, sapiente qui, amet quidem culpa.",
+    "trailer_url": "https://www.youtube.com/watch?v=cklw-Yu3moE"
+  },
+  {
+    "title": "Cuphead",
+    "score": 4.6,
+    "game_year": 2017,
+    "genre": "Platform",
+    "platforms": "XBox, Playstation, PC",
+    "img_url": "https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/9.png",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!",
+    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum illum placeat eligendi, quis maiores veniam. Incidunt dolorum, nisi deleniti dicta odit voluptatem nam provident temporibus reprehenderit blanditiis consectetur tenetur. Dignissimos blanditiis quod corporis iste, aliquid perspiciatis architecto quasi tempore ipsam voluptates ea ad distinctio, sapiente qui, amet quidem culpa.",
+    "trailer_url": "https://www.youtube.com/watch?v=NN-9SQXoi50"
+  },
+  {
+    "title": "Sonic CD",
+    "score": 4,
+    "game_year": 1993,
+    "genre": "Platform",
+    "platforms": "Sega CD, PC",
+    "img_url": "https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/10.png",
+    "short_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit esse officiis corrupti unde repellat non quibusdam! Id nihil itaque ipsum!",
+    "long_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolorum illum placeat eligendi, quis maiores veniam. Incidunt dolorum, nisi deleniti dicta odit voluptatem nam provident temporibus reprehenderit blanditiis consectetur tenetur. Dignissimos blanditiis quod corporis iste, aliquid perspiciatis architecto quasi tempore ipsam voluptates ea ad distinctio, sapiente qui, amet quidem culpa.",
+    "trailer_url": "https://www.youtube.com/watch?v=nHk6jOQLFBA"
+  }
+]

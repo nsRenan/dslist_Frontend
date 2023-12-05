@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Styles from './cadastrar.module.css';
 
-function Atualizar (){
+function Cadastrar (){
     const [formData, setFormData] = useState({
         title: '',
         score: '',
@@ -166,4 +166,4 @@ function Atualizar (){
       );
 }
 
-export default Atualizar
+export default Cadastrar
