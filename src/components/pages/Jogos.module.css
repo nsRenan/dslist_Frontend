@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.jogos {
+  margin-top: 150px;
+  color: #E34310;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+hr {
+  width: 120px;
+  border: solid 1px #E34310;
+  margin-bottom: 50px;
+}
