@@ -1,14 +1,14 @@
 import styles from './home.module.css'
-import Image from '../images/image.jpg'
+import ButtonHome from '../buttons/buttonHome'
 
 function Home() {
     return (
+
         <section className={styles.home}>
-            <div className={styles.imagem}>
-                <img src={Image} className={styles.img} />
-            </div>
             <div className={styles.apresentacao}>
-                <p>DsList é um projeto de estudo que consiste em uma biblioteca de jogos</p>
+                <span className={styles.title}>ENCONTRE SEU JOGO <span className={styles.h1text}>FAVORITO</span></span>
+                <p className={styles.Desc}>O <span className={styles.h1text}>DsList</span> é um projeto de estudo que consiste em uma biblioteca de jogos, onde é possível cadastrar e listar seus jogos favoritos</p>
+                <ButtonHome value="Explorar"/>
             </div>
         </section>
     )

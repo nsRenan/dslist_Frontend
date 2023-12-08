@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import Styles from './JogosCard.module.css';
 
+import ButtonCard from '../buttons/ButtonCard';
+
 function JogosCard({ jogos }) {
   const [expandedIndex, setExpandedIndex] = useState(null);
   const [showVideo, setShowVideo] = useState(false);
@@ -46,13 +48,14 @@ function JogosCard({ jogos }) {
         >
           <img src={jogo.img_url} alt={`Imagem do ${jogo.title}`} />
           <div className={Styles.jogos_card_content}>
-            <h4>{jogo.title}</h4>
+            <span className={Styles.title}>{jogo.title}</span>
             <p className={Styles.descricao}>
               <span>Descrição:</span> {jogo.short_description} 
             </p>
             <p2 className={Styles.jogo_platforms}>
               <span>Plataformas:</span> {jogo.platforms}
             </p2>
+            <ButtonCard value="Ver mais"/>
             {index === expandedIndex && (
               <div>
                 <p>

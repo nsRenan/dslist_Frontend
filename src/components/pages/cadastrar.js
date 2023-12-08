@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Styles from './cadastrar.module.css';
 
-function Cadastrar (){
+
+function Atualizar (){
     const [formData, setFormData] = useState({
         title: '',
         score: '',
@@ -29,7 +30,7 @@ function Cadastrar (){
       };
     
       return (
-        <div className="container mt-5">
+        <div className='container'>
           <h2>Game Information</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
@@ -166,4 +167,4 @@ function Cadastrar (){
       );
 }
 
-export default Cadastrar
+export default Atualizar

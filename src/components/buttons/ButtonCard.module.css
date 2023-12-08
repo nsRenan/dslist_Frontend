@@ -1,0 +1,11 @@
+.btnCard {
+    border-radius: 6px;
+    background-color: #be314400;
+    border: 1px solid #E34310;
+
+    color: #E34310;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 15px;
+}

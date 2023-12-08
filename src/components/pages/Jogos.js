@@ -6,10 +6,8 @@ function Jogos() {
   return (
 <section>
       <div>
-        <h1 className={Styles.jogos}>Jogos</h1>
-      </div>
-      <div className={Styles.jogos}>
-        <h3>Jogos Cadastrados</h3>
+        <h1 className={Styles.jogos}>JOGOS</h1>
+        <hr></hr>
       </div>
       <div>
         <JogosCard jogos={dadosJogos} />
