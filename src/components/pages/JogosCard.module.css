@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.details_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.jogos_card {
+  width: 350px; 
+  height: 550px; 
+  border-radius: 15px;
+  background: linear-gradient(180deg, #040404 0%, #0C0C0C 100%);
+  margin: 1%;
+  transition: transform 0.3s ease; 
+}
+
+
+.jogos_card:hover {
+  transform: scale(1.05); 
+}
+
+.jogos_card img {
+  width: 100%;
+  height: 50%; 
+  object-fit: cover; 
+  border-radius: 20px 20px 0 0; 
+}
+
+.jogos_card_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0px 20px;
+  align-items: center;
+}
+
+.title {
+  padding-top: 16px;
+  color: #E34310;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.jogos_card p {
+  color: #FFF;
+  text-align: justify;
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.jogos_card p span {
+  font-weight: bold;
+}
+.jogos_card p2 span {
+  font-weight: bold;
+}
+
+.jogos_card p2 {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #cccccc;
+  margin-bottom: 8px;
+}
+
